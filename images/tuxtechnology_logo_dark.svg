@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <title>TuxTechnology Logo — Dark</title>
+  <desc>TuxTechnology logo mark — tilted ellipse orbit, dark theme. High contrast dots and visible orbit rings.</desc>
+
+  <!-- background -->
+  <rect width="500" height="500" rx="48" fill="#0D0C17"/>
+
+  <!-- outer ellipse ring — bright enough to see clearly -->
+  <ellipse cx="250" cy="250" rx="188" ry="106"
+           fill="none" stroke="#4A4680" stroke-width="2"
+           transform="rotate(-30 250 250)"/>
+
+  <!-- inner ellipse ring dashed -->
+  <ellipse cx="250" cy="250" rx="122" ry="68"
+           fill="none" stroke="#4A4680" stroke-width="1.4" stroke-dasharray="6 8"
+           transform="rotate(-30 250 250)"/>
+
+  <!-- crowd — 3 dots, bottom-right, well spaced, solid visible purple -->
+  <circle cx="348" cy="348" r="16" fill="#7F77DD"/>
+  <circle cx="388" cy="318" r="16" fill="#7F77DD"/>
+  <circle cx="372" cy="278" r="16" fill="#7F77DD"/>
+
+  <!-- trail — 2 fading steps -->
+  <circle cx="318" cy="258" r="10" fill="#AFA9EC" opacity="0.5"/>
+  <circle cx="286" cy="232" r="7"  fill="#CECBF6" opacity="0.3"/>
+
+  <!-- lone dot — top-left, bright white-lavender, fully visible -->
+  <circle cx="134" cy="162" r="24" fill="#EEEDFE"/>
+
+</svg>
